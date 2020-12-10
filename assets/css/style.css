@@ -3,6 +3,6 @@
 /*---General---*/
 
 body {
-    background: url("../images/french_flag.jpg");
+    background-image: url("../images/french_flag.jpg");
     color: #f4f4f4;
 }

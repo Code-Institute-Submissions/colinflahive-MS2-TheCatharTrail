@@ -10,5 +10,53 @@
 
 body {
     background-image: url("../images/french_flag_v2.jpg");
-    color: #f4f4f4;
+    color: #777777;
+    font-family: bitter;
+}
+
+h2 {
+    letter-spacing: 1px;
+}
+
+menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
+
+#castle-one {
+    height: 600px;
+    width: 100%;
+    background: url("../images/peyrepertuse_landing.jpg") no-repeat center center;
+    animation-name: castle-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#castle {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes castle-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }

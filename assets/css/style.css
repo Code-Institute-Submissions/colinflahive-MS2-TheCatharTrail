@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Lato&family=Oswald&display=swap');
 
 /*---General---*/
 
@@ -40,7 +40,7 @@ menu li {
 #castle-one {
     height: 600px;
     width: 100%;
-    background: url("../images/peyrepertuse_landing.jpg") no-repeat center center;
+    background: url("../images/peyrepertuse_landing_v.jpg") no-repeat center center;
     animation-name: castle-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -49,7 +49,9 @@ menu li {
 #castle {
     height: 600px;
     width: 100%;
+    margin-top: 100px;
     overflow: hidden;
+    position: relative;
 }
 
 @keyframes castle-zoom {
@@ -59,4 +61,19 @@ menu li {
     to{
         transform: scale(1.1);
     }
+}
+
+#castle-text{
+    color: #ffffff;
+    font-size: 200%;
+    font-family: Oswald;
+    width: 350px;
+    height: 170px;
+    padding-top: 20px;
+    padding-left: 10px;
+    background-color: rgba(241, 109, 107, 0.7);
+    bottom: 40px;
+    right: 100px;
+    position: absolute;
+
 }

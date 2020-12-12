@@ -17,6 +17,10 @@
     white-space: nowrap;
 }
 
+.navbar {
+    background-color: #ddc3c3; 
+}
+
 body {
     background-image: url("../images/french_flag_v2.jpg");
     color: #777777;

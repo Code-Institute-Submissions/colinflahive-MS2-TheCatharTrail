@@ -8,6 +8,15 @@
     border: 0;
 }
 
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
 body {
     background-image: url("../images/french_flag_v2.jpg");
     color: #777777;
@@ -94,7 +103,7 @@ footer h2{
 }
 
 .social-media i {
-    font-size: 160%;
+    font-size: 130%;
     margin: 1%;
     padding: 5%;
     color: #777777;

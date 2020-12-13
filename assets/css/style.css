@@ -22,7 +22,7 @@
 }
 
 body {
-    background-image: url("../images/french_flag_v2.jpg");
+    background-color: beige;
     color: #777777;
     font-family: bitter;
 }
@@ -31,13 +31,12 @@ h2 {
     letter-spacing: 1px;
 }
 
-menu {
-    font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 4px;
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
 
-menu li {
+#menu li {
     float: right;
     margin-right: 30px;
 }

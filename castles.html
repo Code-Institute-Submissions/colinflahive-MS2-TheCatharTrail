@@ -11,31 +11,40 @@
 </head>
 <body>
 <nav class="navbar opaque-navbar navbar-expand-md fixed-top">
-<a href="index.html" class="navbar-brand"> <img src="assets/images/cathar_cross.jpg" alt="Cathar Logo"></a>
+    <a href="index.html" class="navbar-brand"> <img src="assets/images/cathar_cross.jpg" alt="Cathar Logo"></a>
         <div class="container">
             <a class="navbar-brand" href="#"><h2>The Cathar Trail</h2></a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNavMenuLink" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav ml-auto">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto" id="menu">
                     <li class="menu-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="menu-item">
                         <a class="nav-link" href="experience.html">Experience</a>
                     </li>
-                    <li class="menu-item">
-                        <a class="nav-link" href="castles.html">Castles</a>
+                    <li class="nav-item dropdown">    
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Castles</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Carcassonne</a>
+                            <a class="dropdown-item" href="#">Lastours</a>
+                            <a class="dropdown-item" href="#">Peyrepertuse</a>
+                            <a class="dropdown-item" href="#">Puilaurens</a>
+                            <a class="dropdown-item" href="#">Queribus</a>
+                        </div>
                     </li>
                     <li class="menu-item">
                         <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+                    </li>                    
                 </ul>
             </div>
         </div>
-    </nav>    
+    </nav>
+    
         
   <!--FOOTER SECTION-->
     <footer>

@@ -107,7 +107,7 @@ menu li {
 }
 
 .carousel_track-container {
-    background: lightgreen;
+    background: rgb(144, 238, 144);
     height: 100%;
     position: relative;
     overflow: hidden;

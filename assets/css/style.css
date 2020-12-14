@@ -38,7 +38,7 @@ h2 {
 
 #menu li {
     float: right;
-    margin-right: 30px;
+    margin: 10px;
 }
 
 #menu a:hover {

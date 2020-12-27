@@ -90,41 +90,38 @@ h2 {
 
 }
 
-/*------- History -------/
+/*------- History -------*/
 
 
 
-/*-------Carousel------->
+/*-------Carousel-------*/
 .carousel-item {
     height: 32rem;
     background: #777;
     
 }
 
-/*-------Testimonials-------/
+/*-------Testimonials-------*/
 
 
 
-/*-------Footer------->
+/*-------Footer-------*/
 
 .social-icons {
     padding-top: 50px;
     padding-bottom: 70px;
-
 }
 
 .social-icons ul {
     margin: 0;
     padding: 0;
     text-align: center;
-    
 }
 
 .social-icons ul li {
     list-style: none;
     display: inline;
     padding-left: 10px;
-
 }
 
 .social-icons ul li a {

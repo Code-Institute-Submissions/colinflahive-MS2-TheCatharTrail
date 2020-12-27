@@ -224,7 +224,15 @@ h2 {
 /*-------Media Queries-------*/
 
 @media screen and (max-width:768px){
-    body {
-        display: none;
+    .navbar-nav {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #a1a1a1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
+

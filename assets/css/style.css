@@ -233,6 +233,18 @@ h2 {
 .score-wrap {
     color: gold;
 }
+
+/*-------Contact Us-------*/
+
+.section-title {
+    padding-top: 100px;
+}
+
+.section-title h1 {
+    text-transform: uppercase
+    ;
+}
+
 /*-------Footer-------*/
 
 .footer-top {

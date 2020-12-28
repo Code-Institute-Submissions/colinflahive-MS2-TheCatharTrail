@@ -43,33 +43,36 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="section-title">
-                    <h2>Contact Us</h2>
-                    <p>You're one step closer to booking an experience of a lifetime in a part of the world yet to be discovered.  Hopefully
-                        you have found the content helpful and gathered further information to our social media links.  Please feel free to 
-                        pick up the phone and contact the team in order to settle any further doubts or questions you may have.  We would be
-                        delighted to assist you and do all we can to help you on your way....</p>
+                    <h1 class="title-head text-center">Contact Us</h1>
+                    <p class="text-center">You're one step closer to booking an experience of a lifetime in a part of the world yet to be discovered.  Hopefully
+                        you have found the content helpful and gathered further information to our social media links.  Please feel free to submit 
+                        an enquiry and the team will be delighted to answer any further questions you may have.</p>
                 </div>
             </div>   
         </div>
     </div>
-    <div class="contact-form">
-        <div class="container">
-            <form role="form">
-                <div class="row">
-                    <div class="col-md-4">
-                        <input type="text" class="form-control" id="name" placeholder="Name">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                    </div>
-                    <div class="col-md-8">
-                        <textarea class="form-control" id="message" rows="15" cols="10" placeholder="Enter Message Here..."></textarea>
-
-                        <button type="button" class="btn btn-default submit-btn form_submit">Submit</button>
-                    </div>    
+    
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+        <div class="center-form">
+            <form onsubmit="return sendMail(this);" class="query-form">
+                <label for="name" class="form-labels" >Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
+                <label for="emailaddress" class="form-labels">Email Address</label> 
+                <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="yourname@email.com" required />
+                <label for="message" class="form-labels">Contact One Of Our Team</label>
+                <textarea rows="5" name="querysummary" id="querysummary" class="form-control" placeholder="Nature of your query" required></textarea>
+                <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary"> Submit</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-            </form>  
+            </div>    
         </div>
-    </div>
+    </section>
 
 <!--Footer-->   
 <footer> 

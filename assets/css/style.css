@@ -140,7 +140,6 @@ h2 {
     bottom: 40px;
     right: 100px;
     position: absolute;
-
 }
 
 /*------- History -------*/
@@ -160,11 +159,35 @@ h2 {
     margin-right: auto;
 }
 
+.ytp-watch-later-icon {
+    margin: auto;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    display: none;
+}
+
+.html5-video-player:not(.ytp-big-mode) .ytp-chrome-top .ytp-watch-later-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: none;
+}
+
+.html5-video-player:not(.ytp-big-mode) .ytp-chrome-top .ytp-watch-later-button {
+    min-width: 48px;
+    max-width: 80px;
+    display: none;
+}
+
 /*-------Testimonials-------*/
+
+.item-active h1 {
+    text-transform: uppercase;
+}
 
 .testimonial-overlay {
     background-color: rgba (31, 31, 31, 0.75);
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 80px;
 }
 
@@ -172,7 +195,7 @@ h2 {
     bottom: -10px;
 }
 
-.carousel-inner .item img {
+.carousel-inner .item-active img {
     border: 2px solid #129cf3;
     border: 50%;
     border-radius: 50%;
@@ -180,7 +203,7 @@ h2 {
 }
 
 .testimonial-caption {
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 .testimonial-caption h2 {
@@ -204,7 +227,7 @@ h2 {
 .testimonial-caption p {
     font-size: 18px;
     line-height: 27px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .score-wrap {

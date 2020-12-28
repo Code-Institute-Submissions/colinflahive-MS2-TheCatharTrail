@@ -3,14 +3,14 @@
 /*---General---*/
 
 *{
-    margin: 0;
-    padding: 0;
-    border: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: beige;
     font-family: bitter;
+    margin: 0;
+    padding: 0;
 }
 
 /*-------NAVBAR SECTION-------*/
@@ -23,22 +23,6 @@ nav {
     min-height: 8vh;
 }
 
-.navbar {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: .5rem 1rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgb(230, 230, 250);
-}
-
 .navbar-brand {
     display: inline-block;
     margin-left: 25px;
@@ -48,6 +32,47 @@ nav {
     text-transform: uppercase;
     letter-spacing: 2px;
     white-space: nowrap;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(230, 230, 250);
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li a {
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.navbar-toggler-icon {
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 h2 {
@@ -123,10 +148,16 @@ h2 {
 
 
 /*-------Carousel-------*/
-.carousel-item {
-    height: 32rem;
-    background: #777;
-    
+
+
+/*-------Cathar Video-------*/
+
+.cathar-video {
+    padding-top: 80px;
+    margin-top: 2rem;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*-------Testimonials-------*/
@@ -176,11 +207,25 @@ h2 {
     padding-top: 50px;
 }
 
+.score-wrap {
+    color: gold;
+}
 /*-------Footer-------*/
 
+.footer-top {
+  background: rgb(128, 4, 4);
+  padding: 10px 0px;
+  color: #fafafa;
+}
+
+.social-icons h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .social-icons {
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .social-icons ul {
@@ -222,17 +267,3 @@ h2 {
 }
 
 /*-------Media Queries-------*/
-
-@media screen and (max-width:768px){
-    .navbar-nav {
-        position: absolute;
-        right: 0px;
-        height: 92vh;
-        top: 8vh;
-        background-color: #a1a1a1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-

@@ -1,8 +1,10 @@
 function sendMail(contactForm) {
+    // you were missing preventDefault. It prevents the page from reloading when you click submit button
+    event.preventDefault();
     emailjs.send("service_hrwrw09", "template_eukrkzn", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "booking_request": contactForm.bookingsummary.value
+        "booking_request": contactForm.querysummary.value
     })
     .then(
         function(response) {
@@ -11,4 +13,6 @@ function sendMail(contactForm) {
         function(error) {
             console.log("FAILED", error);
         });
+        return false;
+    
 }

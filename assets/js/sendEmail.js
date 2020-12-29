@@ -13,6 +13,8 @@ function sendMail(contactForm) {
         function(error) {
             console.log("FAILED", error);
         });
+        
+        document.getElementById('contactForm').reset();
+        
         return false;
-    
 }

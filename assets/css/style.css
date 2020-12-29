@@ -236,13 +236,27 @@ h2 {
 
 /*-------Contact Us-------*/
 
-.section-title {
+.contact-head {
     padding-top: 100px;
 }
 
 .section-title h1 {
-    text-transform: uppercase
-    ;
+    text-transform: uppercase;
+}
+
+.form-subject {
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.query-form {
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /*-------Footer-------*/

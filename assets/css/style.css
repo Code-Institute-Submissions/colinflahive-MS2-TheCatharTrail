@@ -241,6 +241,12 @@ h2 {
     text-align: center;
 }
 
+#maps {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 /*-------Contact Us-------*/
 
 .contact-head {

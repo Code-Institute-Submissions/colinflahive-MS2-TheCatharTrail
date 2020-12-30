@@ -234,6 +234,13 @@ h2 {
     color: gold;
 }
 
+/*-------Castles-------*/
+
+.castles h1 {
+    padding-top: 7%;
+    text-align: center;
+}
+
 /*-------Contact Us-------*/
 
 .contact-head {

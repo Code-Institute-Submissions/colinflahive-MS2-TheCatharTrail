@@ -15,7 +15,7 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         });
         
-        document.getElementById('contactForm').reset();
+        contactForm.reset();
         
         return false;
 }

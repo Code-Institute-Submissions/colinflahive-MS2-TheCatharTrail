@@ -201,6 +201,13 @@ h2 {
     bottom: -10px;
 }
 
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 7%;
+}
+
 .carousel-inner .item-active img {
     border: 2px solid #129cf3;
     border: 50%;

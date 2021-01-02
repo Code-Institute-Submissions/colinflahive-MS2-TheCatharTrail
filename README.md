@@ -112,7 +112,7 @@ Wireframes for this project were composed using Balsamiq. I had originally inclu
 for the site, and drop the opacity to 25%, however, I felt that this particular use of imagery wasn't best applied here as it distracted the 
 user from the other content of the site and it was removed.
 
-[wireframes](https://github.com/colinflahive/MS2-TheCatharTrail/blob/master/assets/docs/Wireframes.pdf)
+[Wireframes](https://github.com/colinflahive/MS2-TheCatharTrail/blob/master/assets/docs/Wireframes.pdf)
 
 
 

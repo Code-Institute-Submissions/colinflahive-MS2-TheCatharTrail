@@ -298,6 +298,11 @@ p {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.h5, h5 {
+    font-size: 1.25rem;
+    padding: 10px;
+}
+
 .btn {
     display: block;
     margin-top: 40px;

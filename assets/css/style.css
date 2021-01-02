@@ -173,17 +173,6 @@ h2 {
     display: none;
 }
 
-.html5-video-player:not(.ytp-big-mode) .ytp-chrome-top .ytp-watch-later-title {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    display: none;
-}
-
-.html5-video-player:not(.ytp-big-mode) .ytp-chrome-top .ytp-watch-later-button {
-    min-width: 48px;
-    max-width: 80px;
-    display: none;
-}
 
 /*-------Testimonials-------*/
 
@@ -207,6 +196,7 @@ h2 {
     overflow: hidden;
     margin-top: 7%;
 }
+
 
 .carousel-inner .item-active img {
     border: 2px solid #129cf3;
@@ -375,9 +365,4 @@ p {
 
 /*-------Media Queries-------*/
 
-@media (min-width: 768px)
-.col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 40%;
-}
+

@@ -8,6 +8,14 @@ a fully responsive, interactive website available across all devices and will fo
 South of France.  The objective of the website is to raise awareness of the tranquility of the region and to encourage 
 the public to broaden their travel experience and learn how the Cathars lived in this forgotten part of the world.
 
+## Table of Contents:
+* [User Stories](#user-stories)
+* [User Experience](#user-experience)
+    *  [The Strategy](#the-strategy)
+    *  [The Scope](#the-scope)
+    *  [The Structure](#the-structure)
+    *  [The Skeleton](#the-skeleton)
+
 *   **User Stories**
     *   **First Time Visitor**
 *   "I want to be able to learn more about the surrounding countryside and what the trip will offer in terms of an experience"       
@@ -70,10 +78,44 @@ maps laid out across the site.
 *   The user will be leaving the site with a sense of positivity and curiousity of what could be the trip of a lifetime.
 *   There will be progressive disclosure reflected across the site which will educate the user and provide subtle enhanced experience as they
 navigate through the pages and the website.
-*   **INSERT WIREFRAME HERE**
+
 
 ### 5. The Surface Plane
+##### 1.Colour Scheme
 
-*   **TO COMPLETE AS PROGRESS IS MADE THROUGH THE PROJECT**
-*   **REFERENCE TO IMAGERY, MAPS, TYPOGRAPHY USED ETC WILL BE UPDATED HERE**
+I decided to select three colours which I felt enhanced the imagery and content of the site in order to convey a tone of scerenity for the user
+and which gives a subtle contrast to the other imagery on the site.
+
+The colours used on the Cathar Trail website were:
+
+* F5F5DC - Beige - For background colours
+* A1A1A1 - Grey - For the Navbar to work with the structure of the castles
+* 800404 - Maroon - For the footer to draw the users attention to further details on the social media links.
+
+##### 2.Typography
+* The font selected for the website was 'Bitter' with a fallback of 'Lato'.  I felt that this font brought formality to the site and gave
+the user confidence that what they saw and read.
+
+##### 3. Images
+
+The careful selection of images used was crucial so that the users attention to the dramatic settings of each of the individual castles. This
+is critical as the mountain top location of each of the castles is the unique selling point of this holiday and experience for the user.
+
+##### 4. Maps & Videos
+
+The introduction of the video is to give the user an interactive experience with each of the castles outlined in this experience.  Although there 
+are over a dozen castles in the "Cathar country" a selection of five of the most scenic castles were selected for this project.
+
+##### 5. Wireframe
+
+Wireframes for this project were composed using Balsamiq. I had originally included a background image of a French flag to set as wallpaper
+for the site, and drop the opacity to 25%, however, I felt that this particular use of imagery wasn't best applied here as it distracted the 
+user from the other content of the site and it was removed.
+
+[wireframes](https://github.com/colinflahive/MS2-The-Cathar-Trail/blob/master/assets/docs/the-cathar-trail-wireframes.pdf)
+
+
+
+
+
 

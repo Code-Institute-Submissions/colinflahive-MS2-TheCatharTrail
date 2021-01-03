@@ -114,6 +114,8 @@ user from the other content of the site and it was removed.
 
 [Wireframes](https://github.com/colinflahive/MS2-TheCatharTrail/blob/master/assets/docs/Wireframes.pdf)
 
+Credit for Hotel de la Cite Carcassonne on Card is abacapress/philippe louzon
+
 
 
 

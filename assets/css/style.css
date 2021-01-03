@@ -274,6 +274,36 @@ p {
     margin-bottom: 20px;
 }
 
+#carcassonneMaps {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#lastoursMaps {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#puilaurensMaps {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#queribusMaps {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#peyrepertuseMaps {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 /*-------Contact Us-------*/
 
 .contact-head {

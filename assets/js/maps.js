@@ -7,7 +7,7 @@ let mapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/se
 let map = L.map("maps", {
     layers: [mapTileLayers],
     center: [43.209, 2.344],
-    zoom: 8
+    zoom: 9
 });
 
 // Custom Markers of castles
@@ -26,7 +26,7 @@ let carcassonneMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arc
 let carcassonneMap = L.map("carcassonneMaps", {
     layers: [carcassonneMapTileLayers],
     center: [43.209, 2.344],
-    zoom: 8
+    zoom: 15
 });
 
 // Custom Markers of Hotels and Restaurants nearby
@@ -44,7 +44,7 @@ let lastoursMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis
 let lastoursMap = L.map("lastoursMaps", {
     layers: [lastoursMapTileLayers],
     center: [43.33632, 2.37836],
-    zoom: 8
+    zoom: 13
 });
 
 // Custom Markers of Hotels and Restaurants nearby
@@ -61,7 +61,7 @@ let puilaurensMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcg
 let puilaurensMap = L.map("puilaurensMaps", {
     layers: [puilaurensMapTileLayers],
     center: [42.80361, 2.29944],
-    zoom: 8
+    zoom: 12
 });
 
 // Custom Markers of Hotels and Restaurants nearby
@@ -78,7 +78,7 @@ let queribusMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis
 let queribusMap = L.map("queribusMaps", {
     layers: [queribusMapTileLayers],
     center: [42.8368, 2.6215],
-    zoom: 8
+    zoom: 12
 });
 
 // Custom Markers of Hotels and Restaurants nearby
@@ -96,11 +96,11 @@ let peyrepertuseMapTileLayers = L.tileLayer("http://services.arcgisonline.com/ar
 let peyrepertuseMap = L.map("peyrepertuseMaps", {
     layers: [peyrepertuseMapTileLayers],
     center: [42.8710, 2.5548],
-    zoom: 8
+    zoom: 12
 });
 
 // Custom Markers of Hotels and Restaurants nearby
 let peyrepertuseCastle = L.marker([42.8710, 2.5548]).addTo(peyrepertuseMap);
-let monGrainDeSel = L.marker([42.878700, 2.504438]).addTo(peyrepertuseMap);//Restaurant Mon Grain de Sel
+let monGrainDeSel = L.marker([42.878700, 2.510]).addTo(peyrepertuseMap);//Restaurant Mon Grain de Sel
 let chambreDhotes = L.marker([42.878940, 2.504700]).addTo(peyrepertuseMap);//Hotel Chambre d'Hotes, Aude.
 

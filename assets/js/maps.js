@@ -35,6 +35,21 @@ let hotelDeLaCiteCarcassonne = L.marker([43.205627, 2.362696]).addTo(carcassonne
 let laBrassens = L.marker([43.211072, 2.356299]).addTo(carcassonneMap);// Restaurant Carcassonne
 
 
+/*-------Carcassonne Markers-------*/ 
+
+marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+polygon.bindPopup("I am a polygon.");
+
+var popup = L.popup(carcassonneMaps)
+    .setLatLng([43.206, 2.364])
+    .setContent("Cite De Carcassonne")
+    .openOn(carcassonneMap);
+
+var popup = L.popup(carcassonneMap)
+    .setLatLng([43.205627, 2.362696])
+    .setContent("Hotel De La Cite, Carcassonne")
+    .openOn(hotelDeLaCiteCarcassonne);
+
 /*-------Lastours Map-------*/
 
 let lastoursMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {

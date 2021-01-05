@@ -52,6 +52,9 @@ let lastoursCastle = L.marker([43.3370, 2.3780]).addTo(lastoursMap);
 let maisonDeLaura = L.marker([43.3292, 2.3583]).addTo(lastoursMap);//Hotel Maison de Laura
 let lepuitsDuTresor = L.marker([43.333941, 2.379012]).addTo(lastoursMap);//Restaurant Le Puits Du Tresor
 
+
+    
+
 /*-------Puilaurens Map-------*/
 
 let puilaurensMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {

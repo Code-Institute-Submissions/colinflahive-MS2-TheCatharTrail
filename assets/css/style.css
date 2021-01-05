@@ -128,21 +128,22 @@ h2 {
     }
 }
 
+/*-------CSS Taken From Love Running Walkthrough Project With CI CSS Fundamentals Module-------*/
 #castle-text{
     color: #ffffff;
     font-size: 200%;
     font-family: Oswald;
     width: 350px;
-    height: 170px;
+    height: 120px;
     padding-top: 20px;
     padding-left: 10px;
     background-color: rgba(241, 109, 107, 0.7);
-    bottom: 40px;
+    bottom: 20px;
     right: 100px;
     position: absolute;
 }
 
-/*------- History -------*/
+/*-------End Credit-------*/
 
 
 
@@ -163,7 +164,6 @@ h2 {
 .paragraph-text {
     text-align: justify;
     letter-spacing: 0.5px;
-    margin-left: 5px 5px 5px 5px;
 }
 
 p {
@@ -186,8 +186,7 @@ p {
     padding-top: 40px;
     margin-top: 1rem;
     margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+  
 }
 
 .ytp-watch-later-icon {
@@ -202,34 +201,6 @@ p {
 
 .item-active h1 {
     text-transform: uppercase;
-}
-
-.testimonial-overlay {
-    background-color: rgba (31, 31, 31, 0.75);
-    padding-top: 20px;
-    padding-bottom: 80px;
-}
-
-
-
-.carousel-indicators {
-    bottom: -10px;
-}
-
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 5%;
-    margin-bottom: 2%;
-}
-
-
-.carousel-inner .item-active img {
-    border: 2px solid #129cf3;
-    border: 50%;
-    border-radius: 50%;
-    padding: 3px;
 }
 
 .testimonial-caption {

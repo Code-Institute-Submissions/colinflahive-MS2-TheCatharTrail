@@ -76,10 +76,11 @@ nav {
 
 h2 {
     letter-spacing: 1px;
+    
 }
 
 .h2, h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(230, 230, 250);
 }
 
@@ -539,5 +540,12 @@ p {
         margin: 0 auto;
         margin-left: 0;
         padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+       
+    .cathar-logo { 
+        display: none;
     }
 }

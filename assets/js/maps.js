@@ -48,9 +48,9 @@ let lastoursMap = L.map("lastoursMaps", {
 });
 
 // Custom Markers of Hotels and Restaurants nearby
-let lastoursCastle = L.marker([43.3370, 2.3780]).addTo(lastoursMap);
-let maisonDeLaura = L.marker([43.3292, 2.3583]).addTo(lastoursMap);//Hotel Maison de Laura
-let lepuitsDuTresor = L.marker([43.333941, 2.379012]).addTo(lastoursMap);//Restaurant Le Puits Du Tresor
+L.marker([43.3370, 2.3780]).addTo(lastoursMap).bindPopup("Lastours Castle");
+L.marker([43.3292, 2.3583]).addTo(lastoursMap).bindPopup("Maison De Laura");//Hotel Maison de Laura
+L.marker([43.333941, 2.379012]).addTo(lastoursMap).bindPopup("Le Puits Du Tresor");//Restaurant Le Puits Du Tresor
 
 
     
@@ -68,9 +68,9 @@ let puilaurensMap = L.map("puilaurensMaps", {
 });
 
 // Custom Markers of Hotels and Restaurants nearby
-let puilaurensCastle = L.marker([42.80361, 2.29944]).addTo(puilaurensMap);
-let leRebenty = L.marker([42.815252, 2.227585]).addTo(puilaurensMap);//Restaurant Le Rebenty
-let hotelAxat = L.marker([42.804642, 2.233958]).addTo(puilaurensMap);//Hotel Hotel Axat
+L.marker([42.80361, 2.29944]).addTo(puilaurensMap).bindPopup("Puilaurens Castle");
+L.marker([42.815252, 2.227585]).addTo(puilaurensMap).bindPopup("Le Rebenty Restaurant***");//Restaurant Le Rebenty
+L.marker([42.804642, 2.233958]).addTo(puilaurensMap).bindPopup("Hotel Axat");//Hotel Hotel Axat
 
 /*-------Queribus Map-------*/
 
@@ -85,10 +85,10 @@ let queribusMap = L.map("queribusMaps", {
 });
 
 // Custom Markers of Hotels and Restaurants nearby
-let queribusCastle = L.marker([42.8368, 2.6215]).addTo(queribusMap);
-let lePichenouille = L.marker([42.809696, 2.595177]).addTo(queribusMap);//Restaurant Le Pichenouille
-let laPauseCathare = L.marker([42.809334, 2.500827]).addTo(queribusMap);//Hotel La Pause Cathare
-let gorgeDeGalamus = L.marker([42.837049, 2.481107]).addTo(queribusMap);//Activity Gorge De Galamus
+L.marker([42.8368, 2.6215]).addTo(queribusMap).bindPopup("Queribus Castle");
+L.marker([42.809696, 2.595177]).addTo(queribusMap).bindPopup("Le Pichenouille, Restaurant");//Restaurant Le Pichenouille
+L.marker([42.809334, 2.500827]).addTo(queribusMap).bindPopup("La Pause Cathare, Hotel");//Hotel La Pause Cathare
+L.marker([42.837049, 2.481107]).addTo(queribusMap).bindPopup("Gorge De Galamus***");//Activity Gorge De Galamus
 
 /*-------Peyrepertuse Map-------*/
 
@@ -103,7 +103,7 @@ let peyrepertuseMap = L.map("peyrepertuseMaps", {
 });
 
 // Custom Markers of Hotels and Restaurants nearby
-let peyrepertuseCastle = L.marker([42.8710, 2.5548]).addTo(peyrepertuseMap);
-let monGrainDeSel = L.marker([42.878700, 2.510]).addTo(peyrepertuseMap);//Restaurant Mon Grain de Sel
-let chambreDhotes = L.marker([42.878940, 2.504700]).addTo(peyrepertuseMap);//Hotel Chambre d'Hotes, Aude.
+L.marker([42.8710, 2.5548]).addTo(peyrepertuseMap).bindPopup("Peyrepertuse Castle");
+L.marker([42.878700, 2.510]).addTo(peyrepertuseMap).bindPopup("Mon Grain de Sel, Restaurant");//Restaurant Mon Grain de Sel
+L.marker([42.878940, 2.504700]).addTo(peyrepertuseMap).bindPopup("Chambre d'Hotes, Hotel");//Hotel Chambre d'Hotes, Aude.
 

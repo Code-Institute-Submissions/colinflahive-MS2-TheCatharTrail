@@ -11,11 +11,11 @@ let map = L.map("maps", {
 });
 
 // Custom Markers of castles
-let carcassonne = L.marker([43.206, 2.364]).addTo(map);
-let lastours = L.marker([43.3370, 2.3780]).addTo(map);
-let puilaurens = L.marker([42.80361, 2.29944]).addTo(map);
-let queribus = L.marker([42.8368, 2.6215]).addTo(map);
-let peyrepertuse = L.marker([42.8710, 2.5548]).addTo(map);
+L.marker([43.206, 2.364]).addTo(map).bindPopup("Carcassonne Castle");
+L.marker([43.3370, 2.3780]).addTo(map).bindPopup("Lastours Castle");
+L.marker([42.80361, 2.29944]).addTo(map).bindPopup("Puilaurens Castle");
+L.marker([42.8368, 2.6215]).addTo(map).bindPopup("Queribus Castle");
+L.marker([42.8710, 2.5548]).addTo(map).bindPopup("Peyrepertuse Castle");
 
 /*-------Carcassonne Map-------*/
 
@@ -30,25 +30,10 @@ let carcassonneMap = L.map("carcassonneMaps", {
 });
 
 // Custom Markers of Hotels and Restaurants nearby
-let carcassonneCastle = L.marker([43.206, 2.364]).addTo(carcassonneMap);
-let hotelDeLaCiteCarcassonne = L.marker([43.205627, 2.362696]).addTo(carcassonneMap);//Hotel Carcassonne
-let laBrassens = L.marker([43.211072, 2.356299]).addTo(carcassonneMap);// Restaurant Carcassonne
+L.marker([43.206, 2.364]).addTo(carcassonneMap).bindPopup("Cite De Carcassonne");
+L.marker([43.205627, 2.362696]).addTo(carcassonneMap).bindPopup("Hotel De La Cite, Carcassonne");//Hotel Carcassonne
+L.marker([43.211072, 2.356299]).addTo(carcassonneMap).bindPopup("La Brassen Rest");// Restaurant Carcassonne
 
-
-/*-------Carcassonne Markers-------*/ 
-
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-polygon.bindPopup("I am a polygon.");
-
-var popup = L.popup(carcassonneMaps)
-    .setLatLng([43.206, 2.364])
-    .setContent("Cite De Carcassonne")
-    .openOn(carcassonneMap);
-
-var popup = L.popup(carcassonneMap)
-    .setLatLng([43.205627, 2.362696])
-    .setContent("Hotel De La Cite, Carcassonne")
-    .openOn(hotelDeLaCiteCarcassonne);
 
 /*-------Lastours Map-------*/
 

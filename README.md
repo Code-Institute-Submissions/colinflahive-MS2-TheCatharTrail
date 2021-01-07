@@ -150,11 +150,38 @@ user from the other content of the site and it was removed.
     cards for the recommendations.
 
 *   Font Awesome
-    + This site was used for the icons for the Footer on each page of the site and for the social media icons on the 
+    + This site was used for the icons for the Footer on each page of the site and for the social media icons on the recommendation cards.
+
+*   YouTube
+    + Used to source the video on the Experience page outlining the countryside and surrounding area of the Cathar Castles.
+
+*   Google Images
+    + Used to source the images for the carousel and the recommendation cards from Pinterest, Tripadvisor and Credit for Hotel de la Cite Carcassonne 
+    on Card is abacapress/philippe louzon.
+
+*   Toolur
+    + Used to resize the images for the site.
+
+###  Resouces
+
+*   W3schools
+*   Slack
+*   YouTube
+*   Stack Overflow
+*   Code Institute Love Running Walk Through Project for the inspiration for the fade image with text on the homepage
+
+#   Credits
+
+*   Allen Thomas Varghese my mentor who provided invaluable feedback, expertise, direction and knowledge throughout the project. 
+*   The Tutor Support Team at the Code Institute who were on hand to deal with a number of issues that arose through the completion
+    of this project.  Their assistance gave me renewed impetus to keep going to see the project through.
+*   The Slack community, especially in the closing period towards my deadline due date.  There were some students on there who made a huge
+    difference.
 
 
 
-Credit for Hotel de la Cite Carcassonne on Card is abacapress/philippe louzon
+
+
 
 
 

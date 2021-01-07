@@ -192,18 +192,11 @@ p {
   
 }
 
-.ytp-watch-later-icon {
-    margin: auto;
-    width: 36px;
-    height: 36px;
-    position: relative;
-    display: none;
-}
-
 .youtube-video {
     height: inherit;
     width: inherit;
 }
+
 /*-------Testimonials-------*/
 
 .item-active h1 {
@@ -509,7 +502,7 @@ p {
     }
     .cathar-map { 
         margin: 0 auto;
-        padding-top: 0;
+        padding-top: 0;    
     }
 }
 

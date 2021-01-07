@@ -139,6 +139,19 @@ user from the other content of the site and it was removed.
     and concise descriptions were included at the Git Commit instruction in order for the user to identify what changes and amendments were
     made to the code in between Push instructions.
 
+*   EmailJS
+    + was tested and used to submit emails from the site to my Gmail account for travel queries.
+
+*   Bootstrap
+    + This was used to create the basic HTML content and structure together with Bootstrap CSS for the layout of the site.
+
+*   Google Fonts Library
+    + The "Bitter" font was used for the majority of the content of the site with "Lato" used to give a more discreet, refined look to the 
+    cards for the recommendations.
+
+*   Font Awesome
+    + This site was used for the icons for the Footer on each page of the site and for the social media icons on the 
+
 
 
 Credit for Hotel de la Cite Carcassonne on Card is abacapress/philippe louzon

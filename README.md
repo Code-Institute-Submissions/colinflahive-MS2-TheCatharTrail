@@ -2,6 +2,8 @@
 
 ![picture](assets/docs/readme_logo.jpg)<h1 align="left">The Cathar Crest</h1>
 
+![Image](assets/docs/responsive.jpg)
+
 # Overview
 This is the second Milestone Project within the Code Institues Full Stack Web Development programme which will create
 a fully responsive, interactive website available across all devices and will focus on the Languedoc region in the 
@@ -15,6 +17,7 @@ the public to broaden their travel experience and learn how the Cathars lived in
     *  [The Scope](#the-scope)
     *  [The Structure](#the-structure)
     *  [The Skeleton](#the-skeleton)
+    *  [The Surface](#the-surface)
 
 *   **User Stories**
     *   **First Time Visitor**
@@ -113,6 +116,30 @@ for the site, and drop the opacity to 25%, however, I felt that this particular 
 user from the other content of the site and it was removed.
 
 [Wireframes](https://github.com/colinflahive/MS2-TheCatharTrail/blob/master/assets/docs/Wireframes.pdf)
+
+### Technologies Used
+
+*   HTML5
+*   CSS3
+*   Bootstrap 4
+*   JavaScript
+
+### Frameworks | Libraries | Programs Used
+
+*   Balsamiq
+    + Balsamiq software was used to to get an outline of the website I was looking to draft.  During the process it was referred to on 
+    a number of occasions for reference to reflect what was going in to the project.  Unfortunately due to time constraints I was unable
+    to complete the Castles page to my satisfaction and had to omit the image of the castle and the brief history of each location.
+
+*   GitHub    
+    + GitHub was the preferred Integrated Development Environment (IDE) for this project was used used to store my code each
+    time it there was a Git performed. 
+
+    + Git was used for version control for this project when using GitHub Gitpod terminal to commit to Git and Push to GitHub. Clear 
+    and concise descriptions were included at the Git Commit instruction in order for the user to identify what changes and amendments were
+    made to the code in between Push instructions.
+
+
 
 Credit for Hotel de la Cite Carcassonne on Card is abacapress/philippe louzon
 

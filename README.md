@@ -170,6 +170,19 @@ user from the other content of the site and it was removed.
 *   Stack Overflow
 *   Code Institute Love Running Walk Through Project for the inspiration for the fade image with text on the homepage
 
+### Deployment
+
+The website was produced with Gitpod which was frequently pushed to the remote repository on Github IDE.
+
+This project was deployed in the followin manner:
+
+*   Login to Github select the repository link
+*   At the top of the selected repository select the 'Settings' icons
+*   Scroll down until the GitHub Pages section is showing
+*   Select the dropdown menu under Source and switch the selection from 'none' to 'master branch'
+*   When the page refreshes return to the GitHub Pages section the link to the website will now be displaying
+*   The notification should read 'Your site is published at 'https://colinflahive.github.io/MS2-TheCatharTrail/'
+
 #   Credits
 
 *   Allen Thomas Varghese my mentor who provided invaluable feedback, expertise, direction and knowledge throughout the project. 

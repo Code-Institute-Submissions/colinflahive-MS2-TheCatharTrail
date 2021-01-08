@@ -1,115 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!--Style.css-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <!--Favicon-->
     <link rel="shortcut icon" href="assets/images/favicon.jpg" />
+    <!--EmailJS-->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script>
-    (function(){
-    emailjs.init("user_GP9zaKoDc2vehbm25IynJ");
-    })();
+        (function () {
+            emailjs.init("user_GP9zaKoDc2vehbm25IynJ");
+        })();
     </script>
     <title>The Cathar Trail</title>
 </head>
+
 <body>
-<nav class="navbar navbar-dark navbar-expand-md fixed-top">
-    <a href="index.html" class="navbar-brand cathar-logo"> <img src="assets/images/cathar_cross.jpg" alt="Cathar Logo"></a>
-        
-            <a class="navbar-brand" href="#"><h2>The Cathar Trail</h2></a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+        <a href="index.html" class="navbar-brand cathar-logo"> <img src="assets/images/cathar_cross.jpg"
+                alt="Cathar Logo"></a>
+
+        <a class="navbar-brand" href="#">
+            <h2>The Cathar Trail</h2>
+        </a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
 
         <div class="collapse navbar-collapse navbar-links" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto" id="menu">
-                    <li class="menu-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="nav-link" href="experience.html">Experience</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="nav-link" href="castles.html">Castle</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>                    
-                </ul>
-            </div>
-        </nav>
-
-<section>
-    <div class="container"> 
-        <div class="row">
-            <div class="col">
-                    <h1 class="contact-head text-center">Contact Us</h1>
-                    <p>You're one step closer to booking an experience of a lifetime in a part of the world yet to be discovered.  Hopefully
-                        you have found the content helpful and gathered further information to our social media links.  Please feel free to submit 
-                        an enquiry and the team will be delighted to answer any further questions you may have.</p>
-            </div>   
+            <ul class="navbar-nav ml-auto" id="menu">
+                <li class="menu-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a class="nav-link" href="experience.html">Experience</a>
+                </li>
+                <li class="menu-item">
+                    <a class="nav-link" href="castles.html">Castle</a>
+                </li>
+                <li class="menu-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </div>
-</section>  
-        <div class="center-form">
-            <form onsubmit="return sendMail(this);" class="query-form">
-                <label for="name" class="form-subject" >Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Name" required>
-                <label for="emailaddress" class="form-subject">Email Address:</label> 
-                <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="yourname@domain.com" required />
-                <label for="message" class="form-subject">Contact One Of Our Team:</label>
-                <textarea rows="5" name="querysummary" id="querysummary" class="form-control" placeholder="Nature of your query" required></textarea>
-                
-                
+    </nav>
 
-                <div class="form-group">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="contact-head text-center">Contact Us</h1>
+                    <p>You're one step closer to booking an experience of a lifetime in a part of the world yet to be
+                        discovered. Hopefully
+                        you have found the content helpful and gathered further information to our social media links.
+                        Please feel free to submit
+                        an enquiry and the team will be delighted to answer any further questions you may have.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="center-form">
+        <form onsubmit="return sendMail(this);" class="query-form">
+            <label for="name" class="form-subject">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Name" required>
+            <label for="emailaddress" class="form-subject">Email Address:</label>
+            <input type="email" name="emailaddress" id="emailaddress" class="form-control"
+                placeholder="yourname@domain.com" required />
+            <label for="message" class="form-subject">Contact One Of Our Team:</label>
+            <textarea id= "message" rows="5" name="querysummary" class="form-control"
+                placeholder="Nature of your query" required></textarea>
+
+
+
+            <div class="form-group">
                 <div class="form-check">
                     <h5>Subscribe to the Cathar Trail <strong>Newsletter</strong>: <br /></h5>
-                        <input type="checkbox" name="yes" value="yes" tabindex="1" />
-                            Yes please <br />
-                        <input type="checkbox" name="no" value="no" tabindex="2" />
-                            Not now, perhaps later <br /> 
-                            <small class="contact-msg text-muted"><strong> Customers, please note: </strong>Cathar Trails will never 
-                                share your details with third parties.</small>        
-                        <div class="form-row text-center">
-                             
+                    <input type="checkbox" name="yes" value="yes" tabindex="1" />
+                    Yes please <br />
+                    <input type="checkbox" name="no" value="no" tabindex="2" />
+                    Not now, perhaps later <br />
+                    <small class="contact-msg text-muted"><strong> Customers, please note: </strong>Cathar Trails will
+                        never
+                        share your details with third parties.</small>
+                    <div class="form-row text-center">
+
                         <div class="col">
                             <button type="submit" class="btn btn-secondary"> Submit</button>
                         </div>
                     </div>
                 </div>
             </div>
-            </form>
-        </div>
-<!--Footer-->   
-<footer> 
-    <div class="container-fluid footer-top">
-        <div class="row no gutters">
-            <div class="col-md-12">
-                <div class="social-icons">
-                    <h2>Follow Us</h2>
-                    <ul>  
-                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="https://www.tripadvisor.com" target="_blank"><i class="fab fa-tripadvisor"></i></a></li>
-                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    </ul>
+        </form>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid footer-top">
+            <div class="row no gutters">
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <h2>Follow Us</h2>
+                        <ul>
+                            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li><a href="https://www.tripadvisor.com" target="_blank"><i
+                                        class="fab fa-tripadvisor"></i></a></li>
+                            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>    
-</footer>
+    </footer>
     <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <!-- <script src="assets/js/sendEmail.js"></script> -->
     <script src="assets/js/sendEmail.js"></script>
     <script src="assets/js/nav.js"></script>
-  
+
 </body>
+
 </html>

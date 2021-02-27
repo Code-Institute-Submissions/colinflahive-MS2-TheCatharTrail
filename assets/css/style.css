@@ -54,10 +54,6 @@ nav {
     display: block;
 }
 
-.navbar-links li:hover {
-    background-color: #555;
-}
-
 .navbar-toggler {
     position: absolute;
     top: .75rem;
@@ -99,7 +95,7 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 3px solid #777777;
 }
 
 #castle-one {
@@ -449,6 +445,7 @@ p {
 .social-icons h2{
     text-transform: uppercase;
     text-align: center;
+    padding-left: 10px;
 }
 
 .social-icons {
@@ -545,7 +542,7 @@ p {
 
 .carousel {
     
-    padding-top: 25%;
+    padding-top: 18%;
     }
 
 

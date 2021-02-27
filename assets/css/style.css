@@ -497,25 +497,56 @@ p {
 
 /*-------Media Queries-------*/
 
+<<<<<<< HEAD
 @media all and (min-width: 320px) {
+=======
+@media only screen and (min-width: 320px) {
+       
+    .active { 
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+>>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
        
     .navbar-brand { 
         margin-left: 0px;
         margin-right: 0.5rem;
     }
+<<<<<<< HEAD
+=======
+}
+
+@media only screen and (min-width: 320px) {
+>>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
        
     .navbar-toggler { 
         right: 0.5rem;
     }
+<<<<<<< HEAD
+=======
+}
+
+@media only screen and (min-width: 320px) {
+>>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
        
     #castle { 
         margin-top: 0px;
     }
+<<<<<<< HEAD
      
+=======
+}
+
+@media only screen and (min-width: 320px) {
+       
+>>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
     #castle-text { 
         right: 0px;
         width: 320px;        
     }
+<<<<<<< HEAD
 
     .h1, h1 {
     
@@ -528,6 +559,29 @@ p {
     }
 
     .cathar-map {
+=======
+}
+
+@media only screen and (min-width: 320px) {
+
+.h1, h1 {
+    
+    margin: 30px 0 15px 0px;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+
+.carousel {
+    
+    padding-top: 25%;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+
+.cathar-map {
+>>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
     
     margin-top: 25px;
     }
@@ -536,6 +590,7 @@ p {
 @media only screen and (min-width: 375px) {
        
     .navbar-brand { 
+<<<<<<< HEAD
         margin-left: 0rem;
     }
 }
@@ -551,6 +606,9 @@ p {
        
     .h2, h2 { 
         margin-right: 40px;
+=======
+        margin-left: 3rem;
+>>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
     }
 }
 

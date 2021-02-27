@@ -249,37 +249,36 @@ p {
 }
 
 #maps {
-    height: 500px;
+    height: 300px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 #carcassonneMaps {
-    height: 500px;
+    height: 300px;
     width: 100%;
     margin-bottom: 20px;
 }
 
 #lastoursMaps {
-    height: 500px;
+    height: 300px;
     width: 100%;
     margin-bottom: 20px;
 }
 
 #puilaurensMaps {
-    height: 500px;
+    height: 300px;
     width: 100%;
     margin-bottom: 20px;
 }
 
 #queribusMaps {
-    height: 500px;
+    height: 300px;
     width: 100%;
     margin-bottom: 20px;
 }
 
 #peyrepertuseMaps {
-    height: 500px;
+    height: 300px;
     width: 100%;
     margin-bottom: 20px;
 }
@@ -497,91 +496,62 @@ p {
 
 /*-------Media Queries-------*/
 
-<<<<<<< HEAD
 @media all and (min-width: 320px) {
-=======
-@media only screen and (min-width: 320px) {
        
     .active { 
         display: none;
     }
-}
 
-@media only screen and (min-width: 320px) {
->>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
+
+@media all and (min-width: 320px) {
        
     .navbar-brand { 
         margin-left: 0px;
         margin-right: 0.5rem;
     }
-<<<<<<< HEAD
-=======
-}
 
-@media only screen and (min-width: 320px) {
->>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
+
+@media all and (min-width: 320px) {
        
     .navbar-toggler { 
         right: 0.5rem;
     }
-<<<<<<< HEAD
-=======
-}
 
-@media only screen and (min-width: 320px) {
->>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
+
+@media all and (min-width: 320px) {
        
     #castle { 
         margin-top: 0px;
     }
-<<<<<<< HEAD
-     
-=======
-}
 
-@media only screen and (min-width: 320px) {
+
+@media all and (min-width: 320px) {
        
->>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
     #castle-text { 
         right: 0px;
         width: 320px;        
     }
-<<<<<<< HEAD
 
-    .h1, h1 {
-    
-    margin: 30px 0 15px 0px;
-    }
 
-    .carousel {
-    
-    padding-top: 25%;
-    }
-
-    .cathar-map {
-=======
-}
-
-@media only screen and (min-width: 320px) {
+@media all and (min-width: 320px) {
 
 .h1, h1 {
     
     margin: 30px 0 15px 0px;
     }
-}
 
-@media only screen and (min-width: 320px) {
+
+@media all and (min-width: 320px) {
 
 .carousel {
     
     padding-top: 25%;
     }
-}
 
-@media only screen and (min-width: 320px) {
+
+@media all and (min-width: 320px) {
 
 .cathar-map {
->>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
     
     margin-top: 25px;
     }
@@ -590,25 +560,7 @@ p {
 @media only screen and (min-width: 375px) {
        
     .navbar-brand { 
-<<<<<<< HEAD
-        margin-left: 0rem;
-    }
-}
-
-@media only screen and (min-width: 375px) {
-       
-    .navbar { 
-        margin-left: 0rem;
-    }
-}
-
-@media only screen and (min-width: 375px) {
-       
-    .h2, h2 { 
-        margin-right: 40px;
-=======
         margin-left: 3rem;
->>>>>>> fdd32110513162ae51a536a87388e1d0ad6f4a4a
     }
 }
 

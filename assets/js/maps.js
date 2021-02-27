@@ -26,7 +26,7 @@ let carcassonneMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arc
 let carcassonneMap = L.map("carcassonneMaps", {
     layers: [carcassonneMapTileLayers],
     center: [43.209, 2.344],
-    zoom: 15
+    zoom: 12
 });
 
 // Custom Markers of Hotels and Restaurants nearby
@@ -44,7 +44,7 @@ let lastoursMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis
 let lastoursMap = L.map("lastoursMaps", {
     layers: [lastoursMapTileLayers],
     center: [43.33632, 2.37836],
-    zoom: 13
+    zoom: 12
 });
 
 // Custom Markers of Hotels and Restaurants nearby

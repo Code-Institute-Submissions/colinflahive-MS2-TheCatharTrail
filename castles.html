@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!--LeafletJS-->
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
     <!--Style.css-->
@@ -15,133 +18,149 @@
     <link rel="shortcut icon" href="assets/images/favicon.jpg" />
     <title>The Cathar Trail</title>
 </head>
+
 <body>
     <!-- Navbar -->
-<nav class="navbar navbar-dark navbar-expand-md fixed-top">
-    <a href="index.html" class="navbar-brand cathar-logo"> <img src="assets/images/cathar_cross.jpg" alt="Cathar Logo"></a>
-        
-            <a class="navbar-brand" href="#"><h2>The Cathar Trail</h2></a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+        <a href="index.html" class="navbar-brand cathar-logo d-block d-sm-none d-md-block">
+            <img src="assets/images/cathar_cross.jpg" alt="Cathar Logo"></a>
+
+        <a class="navbar-brand" href="#">
+            <h2>The Cathar Trail</h2>
+        </a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span></button>
 
         <div class="collapse navbar-collapse navbar-links" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto" id="menu">
-                    <li class="menu-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="nav-link" href="experience.html">Experience</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="nav-link" href="castles.html">Castle</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>                    
-                </ul>
-            </div>
-        </nav>
-
-<section>
-    <div class="castles">
-        <h1>Your Tour Of The Cathar Castles</h1>
-    </div>
-
-<!--General Map-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 col-md-6">
-            <h5 class="maps-general text-center">General Cathar Region</h5>
-            <div id="maps"></div>
+            <ul class="navbar-nav ml-auto" id="menu">
+                <li class="menu-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a class="nav-link" href="experience.html">Experience</a>
+                </li>
+                <li class="menu-item">
+                    <a class="nav-link" href="castles.html">Castles</a>
+                </li>
+                <li class="menu-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
-    </div>
-</div>
+    </nav>
 
-<!--Carcassonne Map-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 col-md-6">
-            <h5 class="maps-carcassonne text-center">The Cathar Castle - Carcassonne</h5>
-            <div id="carcassonneMaps"></div>
+    <section>
+        <div class="castles">
+            <h1>Your Tour Of The Cathar Castles</h1>
         </div>
-    </div>
-</div>            
 
-<!--Lastours Map-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 col-md-6">
-            <h5 class="maps-lastours text-center"> The Cathar Castle - Lastours</h5>
-            <div id="lastoursMaps"></div>
-        </div>
-    </div>        
-</div>
-
-<!--Puilaurens Map-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 col-md-6">
-            <h5 class="maps-puilaurens text-center">The Cathar Castle - Puilaurens</h5>
-            <div id="puilaurensMaps"></div>
-        </div>
-    </div>        
-</div>            
-            
-<!--Queribus Map-->
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 col-md-6">
-            <h5 class="maps-queribus text-center">The Cathar Castle - Queribus</h5>
-        <div id="queribusMaps">The Cathar Castle - Puilaurens</div>
-        </div>
-    </div>        
-</div>                    
-
-<!--Peyrepertuse Map-->
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 col-md-6">
-            <h5 class="maps-peyrepertuse text-center">The Cathar Castle - Peyrepertuse</h5>
-        <div id="peyrepertuseMaps"></div>
-        </div>
-    </div>        
-</div>        
-
-
-
-
-
-</section>    
-        
-  <!--FOOTER SECTION-->
-
-<footer> 
-    <div class="container-fluid footer-top">
-        <div class="row no gutters">
-            <div class="col-md-12">
-                <div class="social-icons">
-                    <h2>Follow Us</h2>
-                    <ul>  
-                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="https://www.tripadvisor.com" target="_blank"><i class="fab fa-tripadvisor"></i></a></li>
-                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    </ul>
+        <!--General Map-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-6">
+                    <h5 class="maps-general text-center">General Cathar Region</h5>
+                    <div id="maps"></div>
                 </div>
             </div>
         </div>
-    </div>    
-</footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!--Carcassonne Map-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-6">
+                    <h5 class="maps-carcassonne text-center">The Cathar Castle - Carcassonne</h5>
+                    <div id="carcassonneMaps"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Lastours Map-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-6">
+                    <h5 class="maps-lastours text-center"> The Cathar Castle - Lastours</h5>
+                    <div id="lastoursMaps"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Puilaurens Map-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-6">
+                    <h5 class="maps-puilaurens text-center">The Cathar Castle - Puilaurens</h5>
+                    <div id="puilaurensMaps"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Queribus Map-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-6">
+                    <h5 class="maps-queribus text-center">The Cathar Castle - Queribus</h5>
+                    <div id="queribusMaps">The Cathar Castle - Puilaurens</div>
+                </div>
+            </div>
+        </div>
+
+        <!--Peyrepertuse Map-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-6">
+                    <h5 class="maps-peyrepertuse text-center">The Cathar Castle - Peyrepertuse</h5>
+                    <div id="peyrepertuseMaps"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+    <!--FOOTER SECTION-->
+
+    <footer>
+        <div class="container-fluid footer-top">
+            <div class="row no gutters">
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <h2>Follow Us</h2>
+                        <ul>
+                            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li><a href="https://www.tripadvisor.com" target="_blank"><i
+                                        class="fab fa-tripadvisor"></i></a></li>
+                            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/nav.js"></script>
 </body>
+
 </html>

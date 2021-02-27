@@ -102,10 +102,6 @@ h2 {
     border-bottom: 1px solid #777777;
 }
 
-.active {
-    border-bottom: 1px solid #777777;
-}
-
 #castle-one {
     height: 600px;
     width: 100%;
@@ -184,14 +180,19 @@ p {
 .cathar-map {
     margin-left: 25%;
     width: 50%;
-    padding-top: 50px;
-    border: 1px solid;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-left: 90px;
 }
 
 .cathar-video {
     height: 100%;
     width: 100%;
     margin-bottom: 40px;
+    margin-left: 50px;
   
 }
 
@@ -442,7 +443,7 @@ p {
 
 .footer-top {
   background: rgb(128, 4, 4);
-  padding: 10px 0px;
+  padding: 9px 0px;
   color: #fafafa;
 }
 
@@ -496,6 +497,70 @@ p {
 
 /*-------Media Queries-------*/
 
+@media all and (min-width: 320px) {
+       
+    .navbar-brand { 
+        margin-left: 0px;
+        margin-right: 0.5rem;
+    }
+       
+    .navbar-toggler { 
+        right: 0.5rem;
+    }
+       
+    #castle { 
+        margin-top: 0px;
+    }
+     
+    #castle-text { 
+        right: 0px;
+        width: 320px;        
+    }
+
+    .h1, h1 {
+    
+    margin: 30px 0 15px 0px;
+    }
+
+    .carousel {
+    
+    padding-top: 25%;
+    }
+
+    .cathar-map {
+    
+    margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+       
+    .navbar-brand { 
+        margin-left: 0rem;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+       
+    .navbar { 
+        margin-left: 0rem;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+       
+    .h2, h2 { 
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+       
+    .navbar-toggler { 
+        right: 0.5rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .navbar-brand {
         font-size: 2.5rem;
@@ -515,13 +580,6 @@ p {
     font-size: 1rem;
     color: rgb(230, 230, 250);
 
-    }
-}
-
-@media only screen and (max-width: 320px) {
-       
-    .cathar-logo { 
-        display: none;
     }
 }
 

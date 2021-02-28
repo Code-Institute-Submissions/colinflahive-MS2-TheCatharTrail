@@ -2,600 +2,456 @@
 
 /*---General---*/
 
-*{
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
-
 body {
-    background-color: #F5F5DC;
-    font-family: bitter;
-    margin: 0;
-    padding: 0;
+	background-color: #F5F5DC;
+	font-family: bitter;
+	margin: 0;
+	padding: 0;
 }
-
 /*-------NAVBAR SECTION-------*/
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #a1a1a1;
-    min-height: 8vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #a1a1a1;
+	min-height: 8vh;
 }
-
 .navbar-brand {
-    display: inline-block;
-    margin-left: 25px;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    white-space: nowrap;
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	white-space: nowrap;
 }
-
 .navbar {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgb(230, 230, 250);
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: rgb(230, 230, 250);
 }
-
 .navbar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
+	margin: 0;
+	padding: 0;
+	display: flex;
 }
-
 .navbar-links li a {
-    padding: 1rem;
-    display: block;
+	padding: 1rem;
+	display: block;
 }
-
 .navbar-toggler {
-    position: absolute;
-    top: .75rem;
-    right: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 50px;
-    height: 40px;
-    background-color: #129cf3;
+	position: absolute;
+	top: .75rem;
+	right: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50px;
+	height: 40px;
+	background-color: #129cf3;
 }
-
 .navbar-toggler-icon {
-   align-self: center;
+	align-self: center;
 }
-
 h2 {
-    letter-spacing: 1px;
-    margin: 0px;
-    padding-top: 7px;
-    font-size: 1.2rem;
-    
+	letter-spacing: 1px;
+	margin: 0px;
+	padding-top: 7px;
+	font-size: 1.2rem;
 }
-
-.h2, h2 {
-    font-size: 1.5rem;
-    color: rgb(230, 230, 250);
+.h2,
+h2 {
+	font-size: 1.5rem;
+	color: rgb(230, 230, 250);
 }
-
 #menu a {
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
+	text-decoration: none;
+	color: inherit;
+	text-align: center;
 }
-
 #menu li {
-    float: right;
-    margin: 10px;
+	float: right;
+	margin: 10px;
 }
-
 #menu a:hover {
-    border-bottom: 3px solid #777777;
+	border-bottom: 3px solid #777777;
 }
-
 #castle-one {
-    height: 600px;
-    width: 100%;
-    background: url("../images/peyrepertuse_landing_v.jpg") no-repeat center center;
-    animation-name: castle-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+	height: 600px;
+	width: 100%;
+	background: url("../images/peyrepertuse_landing_v.jpg") no-repeat center center;
+	animation-name: castle-zoom;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
 }
-
 #castle {
-    height: 600px;
-    width: 100%;
-    margin-top: 92px;
-    position: relative;
-    overflow: hidden;
+	height: 600px;
+	width: 100%;
+	margin-top: 92px;
+	position: relative;
+	overflow: hidden;
 }
-
 @keyframes castle-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.1);
+	}
 }
-
 /*-------CSS Taken From Love Running Walkthrough Project With CI CSS Fundamentals Module-------*/
-#castle-text{
-    color: #ffffff;
-    font-size: 200%;
-    font-family: Oswald;
-    width: 350px;
-    height: 120px;
-    padding-top: 20px;
-    padding-left: 10px;
-    background-color: rgba(241, 109, 107, 0.7);
-    bottom: 20px;
-    right: 100px;
-    position: absolute;
+
+#castle-text {
+	color: #ffffff;
+	font-size: 200%;
+	font-family: Oswald;
+	width: 350px;
+	height: 120px;
+	padding-top: 20px;
+	padding-left: 10px;
+	background-color: rgba(241, 109, 107, 0.7);
+	bottom: 20px;
+	right: 100px;
+	position: absolute;
 }
-
 /*-------End Credit-------*/
-
-
 
 /*-------Experience-------*/
 
 .carousel {
-    position: relative;
-    padding-top: 5%;
+	position: relative;
+	padding-top: 5%;
 }
-
-.h1, h1 {
-    font-size: 2.5rem;
-    text-decoration: underline;
-    text-align: center;
-    margin: 30px 0 15px 15px;
+.h1,
+h1 {
+	font-size: 2.5rem;
+	text-decoration: underline;
+	text-align: center;
+	margin: 30px 0 15px 15px;
 }
-
 .paragraph-text {
-    text-align: justify;
-    letter-spacing: 0.5px;
-    margin-left: 5%;
-    margin-right: 5%;
+	text-align: justify;
+	letter-spacing: 0.5px;
+	margin-left: 5%;
+	margin-right: 5%;
 }
-
 p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin-left: 15px;
-    margin-right: 15px;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	margin-left: 15px;
+	margin-right: 15px;
 }
-
 /*-------Cathar Video-------*/
 
 .cathar-map {
-    margin-left: 25%;
-    width: 50%;
+	margin-left: 25%;
+	width: 50%;
 }
-
 .img-fluid {
-    max-width: 100%;
-    height: auto;
-    margin-left: 90px;
+	max-width: 100%;
+	height: auto;
+	margin-left: 90px;
 }
-
 .cathar-video {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 40px;
-    margin-left: 60px;
-  
+	height: 100%;
+	width: 100%;
+	margin-bottom: 40px;
+	margin-left: 60px;
 }
-
 .youtube-video {
-    height: inherit;
-    width: inherit;
+	height: inherit;
+	width: inherit;
 }
-
 /*-------Testimonials-------*/
 
 .item-active h1 {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
-
 .testimonial-caption {
-    padding-bottom: 30px;
+	padding-bottom: 30px;
 }
-
 .testimonial-caption h2 {
-    color: #129cf3;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 30px;
-    margin-top: 25px;
+	color: #129cf3;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 30px;
+	margin-top: 25px;
 }
-
 .testimonial-caption h4 {
-    color: #129cf3;
+	color: #129cf3;
 }
-
 .testimonial-caption h4 span {
-    color: #129cf3;
-    font-style: italic;
-    font-weight: 300;
+	color: #129cf3;
+	font-style: italic;
+	font-weight: 300;
 }
-
 .testimonial-caption p {
-    font-size: 18px;
-    line-height: 27px;
-    padding-top: 30px;
+	font-size: 18px;
+	line-height: 27px;
+	padding-top: 30px;
 }
-
 .score-wrap {
-    color: gold;
-    text-align: center;
-    margin-bottom: 10px;
+	color: gold;
+	text-align: center;
+	margin-bottom: 10px;
 }
-
 /*-------Castles-------*/
 
 .castles h1 {
-    padding-top: 7%;
-    text-align: center;
+	padding-top: 7%;
+	text-align: center;
 }
-
 #maps {
-    height: 300px;
-    width: 100%;
+	height: 300px;
+	width: 100%;
 }
-
 #carcassonneMaps {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 20px;
+	height: 300px;
+	width: 100%;
+	margin-bottom: 20px;
 }
-
 #lastoursMaps {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 20px;
+	height: 300px;
+	width: 100%;
+	margin-bottom: 20px;
 }
-
 #puilaurensMaps {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 20px;
+	height: 300px;
+	width: 100%;
+	margin-bottom: 20px;
 }
-
 #queribusMaps {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 20px;
+	height: 300px;
+	width: 100%;
+	margin-bottom: 20px;
 }
-
 #peyrepertuseMaps {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 20px;
+	height: 300px;
+	width: 100%;
+	margin-bottom: 20px;
 }
-
 /*-------Castles Cards-------*/
 
-
 .castle-recs h3 {
-    color: #495057;
+	color: #495057;
 }
-
 .castle-recs {
-    padding: 60px 0;
+	padding: 60px 0;
 }
-
 .section-heading {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    font-family: Lato;
-    letter-spacing: 1px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-family: Lato;
+	letter-spacing: 1px;
 }
-
 .card {
-    border: 2px solid;
-    background: #fff;
+	border: 2px solid;
+	background: #fff;
 }
-
 .castle-img-area {
-    width: 100%;
-    height: 250px;
-    display: inline-block;
-    overflow: hidden;
+	width: 100%;
+	height: 250px;
+	display: inline-block;
+	overflow: hidden;
 }
-
-.card-one:hover .side-two{
-    transform: rotateY(0deg);
-    border-radius: 5px;
+.card-one:hover .side-two {
+	transform: rotateY(0deg);
+	border-radius: 5px;
 }
-
-.card-one:hover .side-one{
-    transform: rotateY(180deg);
-    
+.card-one:hover .side-one {
+	transform: rotateY(180deg);
 }
-
 .content-area {
-    transform: perspective(1000px);
-    transition: 1s;
-    transform-style: preserve-3d;
-    position: relative;
+	transform: perspective(1000px);
+	transition: 1s;
+	transform-style: preserve-3d;
+	position: relative;
 }
-
 .side-one {
-    position: relative;
-    transform: rotateY(0deg);
-    z-index: 2;
-    margin-bottom: 30px;
+	position: relative;
+	transform: rotateY(0deg);
+	z-index: 2;
+	margin-bottom: 30px;
 }
-
 .side-two {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #fff;
-    transform: rotateY(-180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	transform: rotateY(-180deg);
 }
-
 .side-one,
-.side-two{
-    backface-visibility: hidden;
-    transition: 1s;
-    transform-style: preserve-3d;
-
+.side-two {
+	backface-visibility: hidden;
+	transition: 1s;
+	transform-style: preserve-3d;
 }
-
-.side-one .card, 
+.side-one .card,
 .side-two .card {
-    min-height: 312px;
+	min-height: 312px;
 }
-
 .side-two .card a {
-    font-size: 18px;
-    color: brown;
+	font-size: 18px;
+	color: brown;
 }
-
 h4 {
-    color: brown;
-    font-family: Lato;
-    letter-spacing: 5px;
-    font-size: 25px; 
+	color: brown;
+	font-family: Lato;
+	letter-spacing: 5px;
+	font-size: 25px;
 }
-
 p {
-    font-family: Lato;
+	font-family: Lato;
 }
-
 /*-------Contact Us-------*/
 
 .contact-head {
-    padding-top: 100px;
+	padding-top: 100px;
 }
-
 p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    text-align: center;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	text-align: center;
 }
-
 .section-title h1 {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
-
 .form-subject {
-    margin-top: 1rem;
-    font-size: 14px;
+	margin-top: 1rem;
+	font-size: 14px;
 }
-
 .query-form {
-    font-weight: 400;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 40px;
+	font-weight: 400;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 40px;
 }
-
 .form-control {
-    display: block;
-    width: 75%;
-    margin-left: 13%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	display: block;
+	width: 75%;
+	margin-left: 13%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-
-.h5, h5 {
-    font-size: 1.25rem;
-    padding: 10px;
+.h5,
+h5 {
+	font-size: 1.25rem;
+	padding: 10px;
 }
-
 .btn {
-    display: block;
-    margin-top: 40px;
-    float: none;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
+	display: block;
+	margin-top: 40px;
+	float: none;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 /*-------Footer-------*/
 
 .footer-top {
-  background: rgb(128, 4, 4);
-  padding: 9px 0px;
-  color: #fafafa;
+	background: rgb(128, 4, 4);
+	padding: 9px 0px;
+	color: #fafafa;
 }
-
-.social-icons h2{
-    text-transform: uppercase;
-    text-align: center;
-    padding-left: 10px;
+.social-icons h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-left: 10px;
 }
-
 .social-icons {
-    padding-top: 10px;
-    padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
-
 .social-icons ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
-
 .social-icons ul li {
-    list-style: none;
-    display: inline;
-    padding-left: 10px;
+	list-style: none;
+	display: inline;
+	padding-left: 10px;
 }
-
 .social-icons ul li a {
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    border: 1px solid #9d9d9d;
-    border-radius: 3px;
-    width: 45px;
-    height: 45px;
-    line-height: 49px;
-    color: #9d9d9d;
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    -webkit-transition: all 1s;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #9d9d9d;
+	border-radius: 3px;
+	width: 45px;
+	height: 45px;
+	line-height: 49px;
+	color: #9d9d9d;
+	transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-webkit-transition: all 1s;
 }
-
 .social-icons ul li a:hover {
-    background-color: #129cf3;
-    border: 1px solid #129cf3;
-    color: #fff;
-}    
-
-.social-icons ul li a i {
-    font-size: 20px;
+	background-color: #129cf3;
+	color: #fff;
 }
-
+.social-icons ul li a i {
+	font-size: 20px;
+}
 /*-------Media Queries-------*/
 
 @media all and (min-width: 320px) {
-       
-    .active { 
-        display: none;
+	.active {
+		display: none;
+	}
+	.navbar-brand {
+		margin-left: 0px;
+		margin-right: 0.5rem;
+	}
+	.navbar-toggler {
+		right: 0.5rem;
     }
-
-
-@media all and (min-width: 320px) {
-       
-    .navbar-brand { 
-        margin-left: 0px;
-        margin-right: 0.5rem;
-    }
-
-
-@media all and (min-width: 320px) {
-       
-    .navbar-toggler { 
-        right: 0.5rem;
-    }
-
-
-@media all and (min-width: 320px) {
-       
-    #castle { 
-        margin-top: 0px;
-    }
-
-
-@media all and (min-width: 320px) {
-       
-    #castle-text { 
-        right: 0px;
-        width: 320px;        
-    }
-
-
-@media all and (min-width: 320px) {
-
-.h1, h1 {
-    
-    margin: 30px 0 15px 0px;
-    }
-
-
-@media all and (min-width: 320px) {
-
-.carousel {
-    
-    padding-top: 18%;
-    }
-
-
-@media all and (min-width: 320px) {
-
-.cathar-map {
-    
-    margin-top: 25px;
+	#castle {
+		margin-top: 0px;
+	}
+	#castle-text {
+		right: 0px;
+		width: 320px;
+	}
+	.h1, h1 {
+		margin: 30px 0 15px 0px;
+	}
+	.carousel {
+		padding-top: 16%;
+	}
+	.cathar-map {
+		margin-top: 25px;
     }
 }
-
-@media only screen and (min-width: 375px) {
-       
-    .navbar-brand { 
-        margin-left: 3rem;
-    }
-}
-
 @media only screen and (max-width: 375px) {
-       
-    .navbar-toggler { 
-        right: 0.5rem;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .navbar-brand {
-        font-size: 2.5rem;
-    }
-    .navbar { 
-        justify-content: start;
-    }
-    .cathar-map { 
-        margin: 0 auto;
-        padding-top: 0;    
-    }
-}
-
-@media only screen and (max-width: 867px) {
-
-    .navbar-brand {
-    font-size: 1rem;
-    color: rgb(230, 230, 250);
-
-    }
-}
-
-@media only screen and (min-width: 553px) {
-       
-    .castle-text { 
-        width: 100vw;
-        left: 0;
-        right: 0;
-        bottom: -30px;
-    }
+	.navbar {
+		justify-content: start;
+	}
+	.cathar-map {
+		margin: 0 auto;
+		padding-top: 0;
+	}
 }

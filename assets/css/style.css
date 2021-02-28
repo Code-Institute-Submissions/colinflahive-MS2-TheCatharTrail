@@ -30,6 +30,7 @@ nav {
 	letter-spacing: 2px;
 	white-space: nowrap;
 }
+
 .navbar {
 	display: flex;
 	align-items: baseline;
@@ -61,6 +62,7 @@ nav {
 .navbar-toggler-icon {
 	align-self: center;
 }
+
 h2 {
 	letter-spacing: 1px;
 	margin: 0px;
@@ -206,7 +208,7 @@ p {
 /*-------Castles-------*/
 
 .castles h1 {
-	padding-top: 7%;
+	padding-top: 10%;
 	text-align: center;
 }
 #maps {
@@ -419,9 +421,7 @@ h5 {
 /*-------Media Queries-------*/
 
 @media all and (min-width: 320px) {
-	.active {
-		display: none;
-	}
+	
 	.navbar-brand {
 		margin-left: 0px;
 		margin-right: 0.5rem;
@@ -446,12 +446,4 @@ h5 {
 		margin-top: 25px;
     }
 }
-@media only screen and (max-width: 375px) {
-	.navbar {
-		justify-content: start;
-	}
-	.cathar-map {
-		margin: 0 auto;
-		padding-top: 0;
-	}
-}
+

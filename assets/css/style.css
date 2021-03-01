@@ -133,7 +133,7 @@ h2 {
 
 .carousel {
 	position: relative;
-	padding-top: 25%;
+
 }
 .h1,
 h1 {
@@ -428,7 +428,11 @@ h5 {
 	.navbar-brand {
 		margin-left: 0px;
 		margin-right: 0.5rem;
-	}
+    }
+    .active {
+        display: none;
+    }
+
 	.navbar-toggler {
         right: 0.50rem;
     }
@@ -443,7 +447,7 @@ h5 {
 		margin: 30px 0 15px 0px;
 	}
 	.carousel {
-		padding-top: 16%;
+		padding-top: 8%;
 	}
 	.cathar-map {
 		margin-top: 25px;

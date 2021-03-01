@@ -70,6 +70,8 @@
         <form onsubmit="return sendMail(this);" class="query-form">
             <label for="name" class="form-subject">Name:</label>
             <input type="text" class="form-control" id="name" placeholder="Name" required>
+            <label for="subject" class="form-subject">Subject:</label>
+            <input type="text" class="form-control" id="subject" placeholder="Subject" required>
             <label for="emailaddress" class="form-subject">Email Address:</label>
             <input type="email" name="emailaddress" id="emailaddress" class="form-control"
                 placeholder="yourname@domain.com" required />
@@ -82,9 +84,9 @@
             <div class="form-group">
                 <div class="form-check">
                     <h5>Subscribe to the Cathar Trail <strong>Newsletter</strong>: <br /></h5>
-                    <input type="checkbox" name="yes" value="yes" tabindex="1" />
+                    <input type="radio" name="yes" value="yes" tabindex="1" />
                     Yes please <br />
-                    <input type="checkbox" name="no" value="no" tabindex="2" />
+                    <input type="radio" name="no" value="no" tabindex="2" />
                     Not now, perhaps later <br />
                     <small class="contact-msg text-muted"><strong> Customers, please note: </strong>Cathar Trails will
                         never

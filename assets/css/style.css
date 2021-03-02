@@ -225,7 +225,7 @@ p {
 /*-------Castles-------*/
 
 .castles h1 {
-	padding-top: 10%;
+	padding-top: 5%;
 	text-align: center;
 }
 #maps {
@@ -335,7 +335,7 @@ p {
 /*-------Contact Us-------*/
 
 .contact-head {
-	padding-top: 100px;
+	padding-top: 0px;
 }
 p {
 	margin-top: 0;
@@ -451,17 +451,17 @@ h5 {
         right: 0.50rem;
     }
 	#castle {
-		margin-top: 0px;
+		margin-top: -40px;
 	}
 	#castle-text {
 		right: 0px;
 		width: 320px;
 	}
 	.h1, h1 {
-		margin: 30px 0 15px 0px;
+		margin: 5px 0 15px 0px;
 	}
 	.carousel {
-		padding-top: 8%;
+		padding-top: 0%;
 	}
 	.cathar-map {
 		margin-top: 25px;

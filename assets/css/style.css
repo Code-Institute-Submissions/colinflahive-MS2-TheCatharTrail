@@ -467,4 +467,13 @@ h5 {
 		margin-top: 25px;
     }
 }
-
+@media all and (min-width: 768px) {
+    .navbar {
+        text-transform: none;
+        letter-spacing: 0px;
+    }
+    .navbar-brand {
+        padding-left: 5px;
+        padding-right: 12px;
+    }
+}

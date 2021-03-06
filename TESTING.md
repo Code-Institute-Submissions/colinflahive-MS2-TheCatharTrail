@@ -69,5 +69,50 @@ user can read any feedback received.
 
 The page focuses solely on the location of the castles in the region.  There are over 12 castles in total on the Cathar Trail, however, this 
 website only focuses on a select few. The user is able to click on each of the markers on each map which will highlight the name and location 
-of each of the restaurants, castles, hotels and activities.  The maps seem to render as required and
+of each of the restaurants, castles, hotels and activities.  The maps seem to render as required and markers and contents of the markers are 
+visible on all devices.
+
+#### Contact file
+
+When the page renders, the information to the user displays as desired, on completion of the contact form/submission of the email the form resets
+to a blank template.  Submission of a query was tested on iPhone X & iPhone 5/SE on Google Developer Tools and form submitted as expected.
+
+#### Footer Section
+
+All social media icons are linked to their respective sites and open on a separate page for the user for ease of use and navigation so that they don't 
+lose the place where they are on the site0.  It was tested across all the devices each opened as expected. Additionally, as stated the social media icons
+on each of the cards on the Experience page all opened on the respective sites accordingly.
+
+---
+
+### Browser Test
+
+|      Browser      | Responsive | Links/URL's | Media | Renders |
+|:-----------------:|:----------:|-------------|:-----:|---------|
+|   Google Chrome   |    Good    |     Good    |  Good |   Good  |
+|      Firefox      |    Good    |     Good    |  Good |   Good  |
+|       Opera       |    Good    |     Good    |  Good |   Good  |
+|       Safari      |    Good    |     Good    |  Good |   Good  |
+|        Edge       |    Good    |     Good    |  Good |   Good  |
+
+### Device Test
+
+|    Device    | Responsive | Links/URL's | Media | Renders |
+|:------------:|:----------:|-------------|:-----:|---------|
+|   Galaxy S5  |    Good    |     Good    |  Good |   Good  |
+|    Pixel 2   |    Good    |     Good    |  Good |   Good  |
+|  iPhone 5/SE |    Good    |     Good    |  Good |   Good  |
+| iPhone 6/7/8 |    Good    |     Good    |  Good |   Good  |
+|   iPhone X   |    Good    |     Good    |  Good |   Good  |
+|     iPad     |    Good    |     Good    |  Good |   Good  |
+|   iPad Pro   |    Good    |     Good    |  Good |   Good  |
+|  Surface Duo |    Good    |     Good    |  Good |   Good  |
+
+###  Developer Tools Lighthouse
+
+<p align="center"><img width="350" height="300" src="assets/images/lighthouse-results.jpg"></p>
+
+Feedback on the "Performance" criteria were broadly directed at the size of the images used on the site.  The comments and feedback 
+provided by the facility in Developer Tools has been noted and will be followed in future projects.  Due to time constraints I was 
+unable to make any adjustments to the size of the files at this point or else the delivery deadline would have been missed.
 

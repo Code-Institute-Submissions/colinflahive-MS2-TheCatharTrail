@@ -1,10 +1,10 @@
 // Leaflet Tiles for the Map
-let mapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+var mapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
         attribution: "Powered by <a href='https://developers.arcgis.com/terms/attribution/' target='_blank' rel='noopener'>Esri</a>"
 });
 
 // Initial Map creation
-let map = L.map("maps", {
+var map = L.map("maps", {
     layers: [mapTileLayers],
     center: [43.209, 2.344],
     zoom: 9
@@ -19,11 +19,11 @@ L.marker([42.8710, 2.5548]).addTo(map).bindPopup("Peyrepertuse Castle");
 
 /*-------Carcassonne Map-------*/
 
-let carcassonneMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+var carcassonneMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
         attribution: "Powered by <a href='https://developers.arcgis.com/terms/attribution/' target='_blank' rel='noopener'>Esri</a>"
 });
 
-let carcassonneMap = L.map("carcassonneMaps", {
+var carcassonneMap = L.map("carcassonneMaps", {
     layers: [carcassonneMapTileLayers],
     center: [43.209, 2.344],
     zoom: 12
@@ -32,16 +32,16 @@ let carcassonneMap = L.map("carcassonneMaps", {
 // Custom Markers of Hotels and Restaurants nearby
 L.marker([43.206, 2.364]).addTo(carcassonneMap).bindPopup("Cite De Carcassonne");
 L.marker([43.205627, 2.362696]).addTo(carcassonneMap).bindPopup("Hotel De La Cite, Carcassonne");//Hotel Carcassonne
-L.marker([43.211072, 2.356299]).addTo(carcassonneMap).bindPopup("La Brassen Rest");// Restaurant Carcassonne
+L.marker([43.211072, 2.356299]).addTo(carcassonneMap).bindPopup("La Brassens Restaurant, Carcassonne");// Restaurant Carcassonne
 
 
 /*-------Lastours Map-------*/
 
-let lastoursMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+var lastoursMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
         attribution: "Powered by <a href='https://developers.arcgis.com/terms/attribution/' target='_blank' rel='noopener'>Esri</a>"
 });
 
-let lastoursMap = L.map("lastoursMaps", {
+var lastoursMap = L.map("lastoursMaps", {
     layers: [lastoursMapTileLayers],
     center: [43.33632, 2.37836],
     zoom: 12
@@ -57,11 +57,11 @@ L.marker([43.333941, 2.379012]).addTo(lastoursMap).bindPopup("Le Puits Du Tresor
 
 /*-------Puilaurens Map-------*/
 
-let puilaurensMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+var puilaurensMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
         attribution: "Powered by <a href='https://developers.arcgis.com/terms/attribution/' target='_blank' rel='noopener'>Esri</a>"
 });
 
-let puilaurensMap = L.map("puilaurensMaps", {
+var puilaurensMap = L.map("puilaurensMaps", {
     layers: [puilaurensMapTileLayers],
     center: [42.80361, 2.29944],
     zoom: 12
@@ -74,11 +74,11 @@ L.marker([42.804642, 2.233958]).addTo(puilaurensMap).bindPopup("Hotel Axat");//H
 
 /*-------Queribus Map-------*/
 
-let queribusMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+var queribusMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
         attribution: "Powered by <a href='https://developers.arcgis.com/terms/attribution/' target='_blank' rel='noopener'>Esri</a>"
 });
 
-let queribusMap = L.map("queribusMaps", {
+var queribusMap = L.map("queribusMaps", {
     layers: [queribusMapTileLayers],
     center: [42.8368, 2.6215],
     zoom: 12
@@ -92,11 +92,11 @@ L.marker([42.837049, 2.481107]).addTo(queribusMap).bindPopup("Gorge De Galamus**
 
 /*-------Peyrepertuse Map-------*/
 
-let peyrepertuseMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
+var peyrepertuseMapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
         attribution: "Powered by <a href='https://developers.arcgis.com/terms/attribution/' target='_blank' rel='noopener'>Esri</a>"
 });
 
-let peyrepertuseMap = L.map("peyrepertuseMaps", {
+var peyrepertuseMap = L.map("peyrepertuseMaps", {
     layers: [peyrepertuseMapTileLayers],
     center: [42.8710, 2.5548],
     zoom: 12

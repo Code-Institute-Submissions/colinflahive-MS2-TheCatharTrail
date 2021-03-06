@@ -32,8 +32,6 @@ nav {
 	white-space: nowrap;
 }
 
-
-
 .navbar {
 	display: flex;
 	align-items: baseline;
@@ -42,19 +40,14 @@ nav {
 	letter-spacing: 2px;
     color: rgb(230, 230, 250);
     padding: 0.5rem 0.5rem;
-}
-
-.navbar {
     position: relative;
     display: -ms-flexbox;
-    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    
 }
 
 .navbar-links ul {
@@ -154,7 +147,8 @@ h2 {
 h1 {
 	font-size: 2.5rem;
 	text-decoration: underline;
-	text-align: center;
+    text-align: center;
+    padding-top: 10px;
 	margin: 30px 0 15px 15px;
 }
 .paragraph-text {

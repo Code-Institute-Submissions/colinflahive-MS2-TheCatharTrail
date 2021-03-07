@@ -19,4 +19,5 @@ function sendMail(contactForm) {
         contactForm.reset();
         
         return false;
+        
 }

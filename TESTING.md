@@ -116,3 +116,67 @@ Feedback on the "Performance" criteria were broadly directed at the size of the 
 provided by the facility in Developer Tools has been noted and will be followed in future projects.  Due to time constraints I was 
 unable to make any adjustments to the size of the files at this point or else the delivery deadline would have been missed.
 
+### User Stories / Client Goals Test
+
+User stories were tested by myself, friends and family.
+
+#### User Stories
+
+- As a user, I'm looking for more information about the history of the region and it's offerings.
+
+    *   The history of the region and background to the Cathar population living in this areas 800-900 years ago gives
+    the user a brief background as to how the people lived in that era.
+
+- As a user, I am for a compact and concise website with easy navigation in order to minimise the user
+experiencing any confusion.
+
+    *   The homepage is designed to provide a striking image for the user along with testamony from previous visitors
+to give an indication of the quality of the occasion.
+
+- As a user, the website should be available on a variety of desktop, mobile and tablet devices.
+
+    *   Potential users should be able to browse with Chrome, Safari, Firefox and Microsoft Edge with full responsiveness.
+
+- As a user, I want to find out more about Cathar castles and the region.
+
+    *   On the Experience page, it will outline what is on offer for the user. Beginning with a carousel/slideshow, it will
+provide the user with five of the castles on offer and the surrounding countryside. There is also a video highlighting the 
+5 castles the visitors can avail of on their tour, along with an illustrative map of the locations of the 5 castles.  Lastly,
+there are three cards displayed at the bottom of the page which highlights the three main attractions visitors can take advantage
+of while they are in the area.
+
+- As a user, I need more detail about locations of the attractions.
+
+    *   On the Castles page, the first map gives the user an overview of where each of the castles
+    are located.  Following on after that, there is a map dedicated to each individual venue and also
+    includes the location of other facilities if the visitor wishes to stay in the area any longer.
+
+- As a user, I would like to contact the Cathar Trail to enquire about further details.
+
+    *   On the Contact page, the user can submit a query to the website which will land in the inbox
+    of the sites mailbox.  The user also has the option to sign up to newsletters now, or at a later
+    time.
+---
+
+## Unresolved Bugs:
+
+Since my (fail) grade was given and I worked to make the changes requested to improve the appearance of the website
+there has been an ongoing issue with one particular html "class" which I have not been able to resolve.  I have put the question
+up on Slack which went unanswered and I had two conversations with the Tutor Support Team and I was still unable to resolve the matter
+to the satisfaction of myself and possibly the marker.
+
+On the index.html file on developer tools, there is an ".active" class that appears in the navbar tag which is having an 
+impact on a number of other aspects of the site.  The ".active" class is not physically typed in to the code in the project,
+so it appears to be a (pseudo) class from Bootstrap.  It is does not appear on any of the other pages navbar code on developer
+tools and causes no other problems. As a result, I am unable to target the navbar-brand and cathar-logo classes on the 
+index.html file, which means that the logo does not appear on the homepage when the page is rendered.  Additionally, I have the 
+class ".fixed-top" included in the <nav> tag and also I believe as a result of this '.active' class I am unable to execute that 
+class either.  When I remove the "position: relative;" from the CSS file, the navbar does fixed-top, however, when the user scrolls the
+navbar slides up the screen slightly on mobile display and the position of the toggler moves, so I have had to leave the 
+"position: relative" included in the style.css file.
+
+<p align="center"><img width="350" height="300" src="assets/images/bug-active-class.jpg"></p>
+<p align="center"><img width="350" height="300" src="assets/images/bug-no-active-class.jpg"></p>
+
+
+

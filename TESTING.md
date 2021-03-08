@@ -55,10 +55,9 @@ when loaded on other devices and terminals without any impact on the images.
 The use of the video was to give the users a more visual experience of what the region has to offer the visitors.  Playback and display
 responds as expected without any significant delays on loading time across the devices and browsers it was tested on.
 
-At the end of the section on History, the link embedded in to the code directing users to the local tourism website launches in the same 
-window so that users are not overwhelmed with new windows opening which may direct them away from the website they are using. There are no
-issues or concerns with the browser opening the link and users should be able to investigate more detail about the region from what the 
-local tourism website has to offer.
+At the end of the section on History, the link embedded in to the code directing users to the local tourism website launches in a separate 
+window so that users are not redirected away from the website they are using. There are no issues or concerns with the browser opening the 
+link and users should be able to investigate more detail about the region from what the local tourism website has to offer.
 
 The cards displayed at the bottom of the page highlight the top hotel, restaurant and activity within the region with the image highlighting
 the venue.  The cards flip on all devices without any issues and the images display clearly. There were no issues with the social media icons

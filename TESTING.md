@@ -159,7 +159,7 @@ of while they are in the area.
 
 ## Unresolved Bugs:
 
-Since my (fail) grade was given and I worked to make the changes requested to improve the appearance of the website
+* Since my (fail) grade was given and I worked to make the changes requested to improve the appearance of the website
 there has been an ongoing issue with one particular html "class" which I have not been able to resolve.  I have put the question
 up on Slack which went unanswered and I had two conversations with the Tutor Support Team and I was still unable to resolve the matter
 to the satisfaction of myself and possibly the marker.
@@ -177,5 +177,9 @@ navbar slides up the screen slightly on mobile display and the position of the t
 <p align="center"><img width="350" height="300" src="assets/images/bug-active-class.jpg"></p>
 <p align="center"><img width="350" height="300" src="assets/images/bug-no-active-class.jpg"></p>
 
-
+* During final testing, two of my testors tested the website on the iPhone 11 handset which is not reflected in Google Developer tools.
+Due to time constraints for resubmission, I did not have time to investigate what the remedy is for the issues this handset highlighted.
+When the user flipped the card on the Experience page, the text of "The Hotel", "The Restaurant" and "The Activity flipped and displayed 
+backwards.  This did not come to my attention when I was testing the website on all other devices on dev tools where this issue did not 
+occur.  I will raise this with my peers to seek advice as to what is expected for this issue for my forthcoming projects.
 

@@ -1,4 +1,4 @@
-# <p align="center">Testing Results for [The Cathar Trail](https://karzuin.github.io/First-milestone-project/)<p>
+# <p align="center">Testing Results for The Cathar Trail<p>
 
 Below are the testing requirements for The Cathar Trail website.
 
@@ -73,8 +73,9 @@ visible on all devices.
 
 #### Contact file
 
-When the page renders, the information to the user displays as desired, on completion of the contact form/submission of the email the form resets
-to a blank template.  Submission of a query was tested on iPhone X & iPhone 5/SE on Google Developer Tools and form submitted as expected.
+When the page renders, the information for the user displays as desired, on completion of the contact form/submission of the email the form resets
+to a blank template.  Submission of a query was tested on iPhone X & iPhone 5/SE on Google Developer Tools and form submitted as expected, with a 
+"Successful Delivery" alert displaying after the Submit button is clicked.
 
 #### Footer Section
 

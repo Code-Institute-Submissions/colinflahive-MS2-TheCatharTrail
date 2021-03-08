@@ -30,12 +30,12 @@ function sendMail(){
     }
 
     if(message.length <= 100){
-        text = "Subject length minimum 100 characters";
+        text = "Message length minimum 100 characters";
         error_message.innerHTML = text;
         return false;
     }
 
-    emailjs.send("service_hrwrw09", "template_eukrkzn",) 
+    emailjs.send("service_hrwrw09", "template_eukrkzn") 
 
     .then(
         function(response) {
@@ -49,7 +49,7 @@ function sendMail(){
             
         });
         
-        contactForm.reset()
+        contactForm.reset();
         
         return false;
         
